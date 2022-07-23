@@ -4,6 +4,7 @@ Get ip related information and website.
 
 
 ## Website
+
 Only use data that is updated in a timely manner and rich in data
 
 | web             | example                                                      | data     |
@@ -28,7 +29,10 @@ china:
 
 ### Other Data Interface Website
 
-> ip.skk.moe
->
-> geoip.deno.dev(my)
+| web                | example                                  | data        |
+| ------------------ | ---------------------------------------- | ----------- |
+| skk.moe            | [ip.skk.moe](https://ip.skk.moe)         |             |
+| geoip.deno.dev(my) | [geoip.deno.dev](https://geoip.deno.dev) | ipinfo&dbip |
+| ipqi.co            | [ipqi](https://ipqi.co/?ip=5.62.56.160)  |             |
+
 
