@@ -15,6 +15,7 @@ Only use data that is updated in a timely manner and rich in data
 | maxmind.com     | [maxmind](https://dev.maxmind.com/)                          | need key |
 | ip2location.com |                                                              | need key |
 | wtfismyip.com   | [wtfismyip](https://wtfismyip.com/json)                      |          |
+| db-ip           | [db-ip](https://db-ip.com/demo/home.php?s=223.5.5.5)(ASN&ip) |          |
 
 china:
 
@@ -29,10 +30,12 @@ china:
 
 ### Other Data Interface Website
 
-| web                | example                                  | data        |
-| ------------------ | ---------------------------------------- | ----------- |
-| skk.moe            | [ip.skk.moe](https://ip.skk.moe)         |             |
-| geoip.deno.dev(my) | [geoip.deno.dev](https://geoip.deno.dev) | ipinfo&dbip |
-| ipqi.co            | [ipqi](https://ipqi.co/?ip=5.62.56.160)  |             |
+| web                | example                                                      | data        |
+| ------------------ | ------------------------------------------------------------ | ----------- |
+| skk.moe            | [ip.skk.moe](https://ip.skk.moe)                             |             |
+| geoip.deno.dev(my) | [geoip.deno.dev](https://geoip.deno.dev)                     | ipinfo&dbip |
+| ipqi.co            | [ipqi](https://ipqi.co/?ip=5.62.56.160)                      |             |
+| geoip.rs           | [geoip.rs](https://api.geoip.rs/?ip=5.62.56.160&lang=en&callback=my_en_function) / [GH](https://github.com/ffissore/geoip-rs) | 30k req/s   |
+
 
 
