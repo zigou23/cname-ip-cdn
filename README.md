@@ -10,7 +10,7 @@ Only use data that is updated in a timely manner and rich in data
 | web              | example                                                      | data                   |
 | ---------------- | ------------------------------------------------------------ | ---------------------- |
 | ip.gs            | [ip-gs](https://ip.gs/json?ip=223.5.5.5)                     |                        |
-| ip-api.com       | [ip-api_free](http://ip-api.com/json/1.1.1.1?fields=61439&lang=en) / [pro](https://pro.ip-api.com/json/?fields=16985625&key=EEKS6bLi6D91G1p)(ip&domain) |                        |
+| ip-api.com       | [ip-api_free](http://ip-api.com/json/1.1.1.1?fields=66846719&lang=en) / [pro](https://pro.ip-api.com/json/?fields=16985625&key=EEKS6bLi6D91G1p)(ip&domain) |                        |
 | ipinfo.io        | [ipinfo](https://ipinfo.io/2.2.2.2/json)                     |                        |
 | maxmind.com      | [maxmind](https://dev.maxmind.com/)                          | need key               |
 | ip2location.com  | demo need verify                                             | need key               |
