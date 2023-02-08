@@ -1,5 +1,9 @@
 # 暂定
 
+```
+ping netlify.app
+```
+
 ### 历史解析记录：
 
 [34.87.59.92](https://ipchaxun.com/34.87.59.92/)
