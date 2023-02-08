@@ -74,6 +74,5 @@ other
 206.189.46.168
 206.189.50.215
 206.189.89.118
-![圖片](https://user-images.githubusercontent.com/40587032/217484136-a16c1b5c-f049-426b-bde8-f7f85e940b72.png)
-
 ```
+![圖片](https://user-images.githubusercontent.com/40587032/217484136-a16c1b5c-f049-426b-bde8-f7f85e940b72.png)
