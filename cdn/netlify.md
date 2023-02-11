@@ -1,4 +1,4 @@
-# 暂定
+# ping
 
 ```
 ping netlify.app
