@@ -2,7 +2,7 @@
 ```
 104.199.217.228 TW-Google
 18.162.37.140 HK-Amazon
-52.93.156.1 HK-Amazon
+52.93.156.1 HK-Amazon 已废
 ```
 
 other
