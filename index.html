@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>CDN</title>
+  <style>
+    body {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      overflow-y: hidden;
+    }
+    #c {
+      text-align: center;
+    }
+    #text a {
+      color: gray;
+      text-decoration: none;
+    }
+    #text a:hover {
+      color: black;
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+  <div id="c">
+    <h1 id="title"></h1>
+    <span id="intro"></span>
+    <span id="text">qsim.top</span>
+  </div>
+  <script>
+    // 获取系统语言代码
+    var systemLanguage = navigator.language;
+    // 根据不同语言代码显示不同语言版本
+    switch (systemLanguage) {
+      case 'zh-TW':
+        document.getElementById('title').textContent = '歡迎訪問本網站';
+        document.getElementById('intro').textContent = '您當前使用的是';
+        break;
+      case 'zh-CN':
+        document.getElementById('title').textContent = '欢迎访问本网站';
+        document.getElementById('intro').textContent = '您当前使用的是';
+        break;
+      case 'es-ES':
+        document.getElementById('title').textContent = '¡Bienvenido a nuestro sitio web';
+        document.getElementById('intro').textContent = 'Estás usando actualmente';
+        break;
+      case 'ar-SA':
+        document.getElementById('title').textContent = 'مرحباً بكم في موقعنا على الإنترنت';
+        document.getElementById('intro').textContent = 'أنت تستخدم حالياً خدمة';
+        break;
+      case 'en-US':
+      default:
+        document.getElementById('title').textContent = 'Welcome to our website.';
+        document.getElementById('intro').textContent = 'You are currently using';
+        break;
+    }
+    var currentDomain = window.location.hostname;
+    switch (currentDomain) {
+      case 'vercel.cdn.qsim.top':
+        document.getElementById('text').innerHTML = '<a href="https://vercel.com">VERCEL</a> CDN.';
+        break;
+      case 'netlify.cdn.qsim.top':
+        document.getElementById('text').innerHTML = '<a href="https://www.netlify.com">NETLIFY</a> CDN.';
+        break;
+      default:
+        document.getElementById('text').innerHTML = '<a href="https://qsim.top">ERROR</a> CDN.';
+        break;
+    }
+  </script>
+</body>
+</html>
