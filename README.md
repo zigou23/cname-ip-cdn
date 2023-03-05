@@ -22,6 +22,7 @@ Only use data that is updated in a timely manner and rich in data
 | ipdata.co        | [ipdata](https://api.ipdata.co/5.62.56.160?api-key=) need key | need key, database old |
 | ipleak.net       | [ipleak.net](https://ipleak.net/?mode=json&ip=5.62.56.160)   |                        |
 | ipify.org        | [ipify.org](https://geo.ipify.org/api/v2/country?apiKey=&ipAddress=8.8.8.8) | need pro               |
+|abstractapi.com|[abstractapi.com](https://app.abstractapi.com/api/ip-geolocation/pricing) 20k/m| need key |
 
 china:
 
