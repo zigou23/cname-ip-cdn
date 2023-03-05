@@ -16,7 +16,7 @@ Only use data that is updated in a timely manner and rich in data
 | ip2location.com  | demo need verify                                             | need key               |
 | ipgeolocation.io | [ipgeolocation](https://prox.zigou23.tk/https/api.ipgeolocation.io/ipgeo?include=hostname&ip=5.62.56.160)(ip&domain) 1k/d | need key()             |
 | db-ip            | [db-ip](https://db-ip.com/demo/home.php?s=5.62.56.160)(ASN&ip) |                        |
-| IPregistry.co    | [ipregistry](https://api.ipregistry.co/5.62.56.160?key=) only 100,000times/life | need key()             |
+| IPregistry.co    | [ipregistry](https://api.ipregistry.co/5.62.56.160?key=) only 100k times/life | need key()             |
 | ipapi.co         | [ipapi-co](https://ipapi.co/5.62.56.160/json/) 1k/d          |                        |
 | ipapi.com        | [ipapi](https://ipapi.com/ip_api.php?ip=5.62.56.160) 1k/m    |                        |
 | ipdata.co        | [ipdata](https://api.ipdata.co/5.62.56.160?api-key=) need key | need key, database old |
