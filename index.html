@@ -58,16 +58,15 @@
         break;
     }
     var currentDomain = window.location.hostname;
-    switch (currentDomain) {
-      case 'vercel.cdn.qsim.top':
-        document.getElementById('text').innerHTML = '<a href="https://vercel.com">VERCEL</a> CDN.';
-        break;
-      case 'netlify.cdn.qsim.top':
-        document.getElementById('text').innerHTML = '<a href="https://www.netlify.com">NETLIFY</a> CDN.';
-        break;
-      default:
-        document.getElementById('text').innerHTML = '<a href="https://qsim.top">ERROR</a> CDN.';
-        break;
+    var pattern = /^(.*?)\.cdn\.qsim\.top$/i; // 正則表達式，提取當前域名中的*部分
+    var match = currentDomain.match(pattern);
+    if (match && match.length === 2) { // 如果匹配成功並且提取出了*
+      var subdomain = match[1]; // 獲取提取出的*部分
+      var link = '//' + subdomain + '.com';
+      var text = subdomain.toUpperCase();
+      document.getElementById('text').innerHTML = '<a href="' + link + '">' + text + '</a> CDN.';
+    } else { // 如果沒有匹配或者匹配結果不正確
+      document.getElementById('text').innerHTML = '<a href="https://qsim.top">ERROR</a> CDN.';
     }
   </script>
 </body>
